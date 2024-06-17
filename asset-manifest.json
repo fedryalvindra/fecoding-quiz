@@ -1,15 +1,17 @@
 {
   "files": {
     "main.css": "/fecoding-quiz/static/css/main.57f3720e.css",
-    "main.js": "/fecoding-quiz/static/js/main.a5df0fac.js",
+    "main.js": "/fecoding-quiz/static/js/main.048d9930.js",
     "static/js/453.5a362980.chunk.js": "/fecoding-quiz/static/js/453.5a362980.chunk.js",
+    "static/media/Insta-logo.png": "/fecoding-quiz/static/media/Insta-logo.f49accb6dbb4ee057340.png",
+    "static/media/author.jpg": "/fecoding-quiz/static/media/author.91f62537b93ad7921a61.jpg",
     "index.html": "/fecoding-quiz/index.html",
     "main.57f3720e.css.map": "/fecoding-quiz/static/css/main.57f3720e.css.map",
-    "main.a5df0fac.js.map": "/fecoding-quiz/static/js/main.a5df0fac.js.map",
+    "main.048d9930.js.map": "/fecoding-quiz/static/js/main.048d9930.js.map",
     "453.5a362980.chunk.js.map": "/fecoding-quiz/static/js/453.5a362980.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.57f3720e.css",
-    "static/js/main.a5df0fac.js"
+    "static/js/main.048d9930.js"
   ]
 }
