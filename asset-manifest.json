@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/fecoding-quiz/static/css/main.57f3720e.css",
+    "main.js": "/fecoding-quiz/static/js/main.a5df0fac.js",
+    "static/js/453.5a362980.chunk.js": "/fecoding-quiz/static/js/453.5a362980.chunk.js",
+    "index.html": "/fecoding-quiz/index.html",
+    "main.57f3720e.css.map": "/fecoding-quiz/static/css/main.57f3720e.css.map",
+    "main.a5df0fac.js.map": "/fecoding-quiz/static/js/main.a5df0fac.js.map",
+    "453.5a362980.chunk.js.map": "/fecoding-quiz/static/js/453.5a362980.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.57f3720e.css",
+    "static/js/main.a5df0fac.js"
+  ]
+}
