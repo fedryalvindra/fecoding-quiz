@@ -1,0 +1,24 @@
+.back {
+  width: 50px;
+  color: #ff76ce;
+  cursor: pointer;
+  padding-left: 40px;
+}
+
+@media only screen and (max-width: 1800px) {
+  .back {
+    width: 30px;
+    color: #ff76ce;
+    cursor: pointer;
+    padding-left: 40px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .back {
+    width: 20px;
+    color: #ff76ce;
+    cursor: pointer;
+    padding-left: 20px;
+  }
+}

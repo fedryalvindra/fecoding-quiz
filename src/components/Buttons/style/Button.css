@@ -1,0 +1,37 @@
+.btn {
+  font-size: 30px;
+  background-color: white;
+  border: 1px solid #ff76ce;
+  color: #ff76ce;
+  padding: 10px 60px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: rgb(194, 194, 194);
+}
+
+@media only screen and (max-width: 1800px)  {
+  .btn {
+    font-size: 20px;
+    background-color: white;
+    border: 1px solid #ff76ce;
+    color: #ff76ce;
+    padding: 5px 30px;
+    border-radius: 30px;
+    cursor: pointer;
+  }
+}
+
+@media only screen and (max-width: 1000px)  {
+  .btn {
+    font-size: 10px;
+    background-color: white;
+    border: 1px solid #ff76ce;
+    color: #ff76ce;
+    padding: 5px 15px;
+    border-radius: 30px;
+    cursor: pointer;
+  }
+}

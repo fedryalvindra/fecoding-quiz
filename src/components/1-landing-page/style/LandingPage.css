@@ -1,0 +1,253 @@
+.landing-page {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 88vh;
+  background-color: #fdffc2;
+  gap: 40px;
+}
+
+header {
+  background-color: white;
+  padding-left: 70px;
+  padding-top: 100px;
+  padding-bottom: 20px;
+}
+
+header h1 {
+  font-size: 120px;
+}
+
+header p {
+  font-size: 24px;
+  color: #a3d8ff;
+}
+
+.quiz-cards {
+  display: flex;
+  padding-left: 70px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 60px;
+  align-self: stretch;
+  height: 100%;
+}
+
+.select-quiz {
+  width: 20em;
+  text-align: center;
+  background-color: white;
+  color: #ff76ce;
+  padding: 16px 8px;
+  border: 2px solid #ff76ce;
+  border-radius: 100px;
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  gap: 45px;
+  align-self: stretch;
+}
+
+.card {
+  display: flex;
+  color: white;
+  width: 20em;
+  padding: 19px 14px 39px 14px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 50px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.card:hover {
+  background: #6d6d6d;
+}
+
+.card h1 {
+  font-size: 40px;
+}
+
+.card p {
+  font-size: 20px;
+}
+
+.description {
+  font-size: 24px;
+}
+
+@media only screen and (max-width: 1800px) {
+  .landing-page {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 88vh;
+    background-color: #fdffc2;
+    gap: 40px;
+  }
+
+  header {
+    background-color: white;
+    padding-left: 70px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  header h1 {
+    font-size: 70px;
+  }
+
+  header p {
+    font-size: 20px;
+    color: #a3d8ff;
+  }
+
+  .quiz-cards {
+    display: flex;
+    padding-left: 70px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+    align-self: stretch;
+    height: 100%;
+  }
+
+  .select-quiz {
+    width: 20em;
+    text-align: center;
+    background-color: white;
+    color: #ff76ce;
+    padding: 10px 8px;
+    border: 2px solid #ff76ce;
+    border-radius: 100px;
+    font-size: 15px;
+  }
+
+  .cards {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 45px;
+    align-self: stretch;
+  }
+
+  .card {
+    display: flex;
+    color: white;
+    width: 22%;
+    padding: 19px 14px 20px 14px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+
+  .card h1 {
+    font-size: 16px;
+  }
+
+  .card p {
+    font-size: 14px;
+  }
+
+  .description {
+    font-size: 10px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .landing-page {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    padding-bottom: 10px;
+    background-color: #fdffc2;
+    gap: 12px;
+  }
+
+  header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 94%;
+    background-color: #fdffc2;
+    padding-left: 12px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+
+  header h1 {
+    font-size: 20px;
+  }
+
+  header p {
+    font-size: 12px;
+    color: #a3d8ff;
+  }
+
+  .quiz-cards {
+    display: flex;
+    padding-left: 12px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    align-self: stretch;
+    height: 100%;
+  }
+
+  .select-quiz {
+    width: 70%;
+    text-align: center;
+    background-color: white;
+    color: #ff76ce;
+    padding: 10px 8px;
+    border: 2px solid #ff76ce;
+    border-radius: 100px;
+    font-size: 10px;
+  }
+
+  .cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    align-self: stretch;
+  }
+
+  .card {
+    display: flex;
+    color: white;
+    width: 70%;
+    padding: 19px 14px 20px 14px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 50px;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+
+  .card h1 {
+    font-size: 16px;
+  }
+
+  .card p {
+    font-size: 14px;
+  }
+
+  .description {
+    text-align: center;
+    width: 70%;
+    font-size: 8px;
+  }
+}
