@@ -1,9 +1,10 @@
 import "./About.css";
+import Author from "./author.jpg"
 
 function About() {
   return (
     <div className="about-container">
-      <img src="/author.jpg" alt="author" />
+      <img src={Author} alt="author" />
       <p>
         Hello my name is{" "}
         <span style={{ color: "#a3d8ff" }}>Fedry Alvindra</span> and i'm the CEO

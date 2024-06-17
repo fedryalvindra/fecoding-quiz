@@ -1,5 +1,6 @@
 import Back from "../Buttons/Back";
 import "./CertificatePage.css";
+import Signature from "./Signature.jpg";
 
 function CertificatePage({ name, selectedQuiz, dispatch }) {
   return (
@@ -17,7 +18,7 @@ function CertificatePage({ name, selectedQuiz, dispatch }) {
               <p>a certificate in</p>
               <h3>{selectedQuiz.title}</h3>
             </div>
-            <img src="/Signature.jpg" alt="signature" />
+            <img src={Signature} alt="signature" />
             <p className="author">Fedry Alvindra</p>
           </div>
         </div>
