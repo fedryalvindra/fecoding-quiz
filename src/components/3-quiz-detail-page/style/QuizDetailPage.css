@@ -169,7 +169,7 @@
     align-items: center;
     justify-content: center;
     background-color: #fdffc2;
-    height: 88vh;
+    height: 100vh;
   }
 
   .quiz-detail-container {
@@ -222,7 +222,7 @@
   }
 
   .quiz-description p {
-    font-weight: 100;
+    font-weight: 900;
     font-size: 6px;
     color: #ff0000;
   }
@@ -239,7 +239,7 @@
   }
 
   .quiz-description-layout h2 {
-    font-weight: lighter;
+    font-weight: 900;
     font-size: 10px;
     color: black;
   }

@@ -87,7 +87,7 @@
     background-color: #fdffc2;
     height: 88vh;
   }
-  
+
   .certificate-page-container {
     display: flex;
     flex-direction: column;
@@ -95,7 +95,7 @@
     height: 80%;
     width: 100%;
   }
-  
+
   .certificate-container {
     display: flex;
     flex-direction: column;
@@ -104,13 +104,13 @@
     gap: 15px;
     height: 100%;
   }
-  
+
   .certificate-border {
     background-color: white;
     padding: 5px;
     border: 4px solid #94ffd8;
   }
-  
+
   .certificate {
     display: flex;
     flex-direction: column;
@@ -121,7 +121,7 @@
     gap: 15px;
     border: 4px solid #ff76ce;
   }
-  
+
   .certificate h1 {
     border-top: 2px solid black;
     border-bottom: 2px solid black;
@@ -131,11 +131,11 @@
   .certificate h2 {
     font-size: 16px;
   }
-  
+
   .certificate img {
     width: 40px;
   }
-  
+
   .logo {
     background-color: #ff76ce;
     color: white;
@@ -145,7 +145,7 @@
     margin-top: -30%;
     font-size: 14px;
   }
-  
+
   .certificate-name {
     display: flex;
     flex-direction: column;
@@ -160,13 +160,13 @@
   .certificate-name h3 {
     font-size: 14px;
   }
-  
+
   .author {
     font-size: 13px;
     padding-top: 2px;
     border-top: 2px solid black;
   }
-  
+
   .screenshoot {
     color: #ff76ce;
     font-size: 16px;
@@ -180,9 +180,9 @@
     align-items: center;
     justify-content: center;
     background-color: #fdffc2;
-    height: 88vh;
+    height: 100vh;
   }
-  
+
   .certificate-page-container {
     display: flex;
     flex-direction: column;
@@ -190,7 +190,7 @@
     height: 80%;
     width: 100%;
   }
-  
+
   .certificate-container {
     display: flex;
     flex-direction: column;
@@ -199,13 +199,13 @@
     gap: 15px;
     height: 100%;
   }
-  
+
   .certificate-border {
     background-color: white;
     padding: 5px;
     border: 4px solid #94ffd8;
   }
-  
+
   .certificate {
     display: flex;
     flex-direction: column;
@@ -216,7 +216,7 @@
     gap: 15px;
     border: 4px solid #ff76ce;
   }
-  
+
   .certificate h1 {
     border-top: 2px solid black;
     border-bottom: 2px solid black;
@@ -226,11 +226,11 @@
   .certificate h2 {
     font-size: 14px;
   }
-  
+
   .certificate img {
     width: 20px;
   }
-  
+
   .logo {
     background-color: #ff76ce;
     color: white;
@@ -240,7 +240,7 @@
     margin-top: -35%;
     font-size: 10px;
   }
-  
+
   .certificate-name {
     display: flex;
     flex-direction: column;
@@ -255,13 +255,13 @@
   .certificate-name h3 {
     font-size: 12px;
   }
-  
+
   .author {
     font-size: 10px;
     padding-top: 2px;
     border-top: 2px solid black;
   }
-  
+
   .screenshoot {
     color: #ff76ce;
     font-size: 16px;
