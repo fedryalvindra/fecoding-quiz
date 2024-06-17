@@ -69,14 +69,14 @@
 }
 
 .quiz-description-layout h4 {
-  font-weight: 100;
+  font-weight: bold;
   font-size: 20px;
 }
 
 .quiz-description-layout h2 {
   font-weight: lighter;
   font-size: 26px;
-  color: rgb(131, 131, 131);
+  color: black;
 }
 
 @media only screen and (max-width: 1800px) {
@@ -151,14 +151,14 @@
   }
 
   .quiz-description-layout h4 {
-    font-weight: 100;
+    font-weight: bold;
     font-size: 8px;
   }
 
   .quiz-description-layout h2 {
     font-weight: lighter;
     font-size: 12px;
-    color: rgb(131, 131, 131);
+    color: black;
   }
 }
 
@@ -234,13 +234,13 @@
   }
 
   .quiz-description-layout h4 {
-    font-weight: 100;
+    font-weight: bold;
     font-size: 6px;
   }
 
   .quiz-description-layout h2 {
     font-weight: lighter;
     font-size: 10px;
-    color: rgb(131, 131, 131);
+    color: black;
   }
 }
