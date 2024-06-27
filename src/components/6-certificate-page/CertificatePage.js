@@ -1,11 +1,13 @@
+import { useQuiz } from "../../context/QuizContext";
 import Back from "../Buttons/Back";
 import "./CertificatePage.css";
 import Signature from "./Signature.jpg";
 
-function CertificatePage({ name, selectedQuiz, dispatch }) {
+function CertificatePage() {
+  const { name, selectedQuiz } = useQuiz();
   return (
     <div className="certificate-page-container">
-      <Back dispatch={dispatch} page={"backToScorePage"} />
+      <Back page={"backToScorePage"} />
       <div className="certificate-container">
         <div className="certificate-border">
           <div className="certificate">

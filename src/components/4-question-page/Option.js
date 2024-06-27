@@ -1,4 +1,7 @@
-function Option({ option, hoverQuiz, i, curAnswer, dispatch, question }) {
+import { useQuiz } from "../../context/QuizContext";
+
+function Option({ option, i, question }) {
+  const { hoverQuiz, curAnswer, dispatch } = useQuiz();
   return (
     <li
       style={{

@@ -1,6 +1,9 @@
+import { useQuiz } from "../../context/QuizContext";
 import Button from "../Buttons/Button";
 
-function InputNameForm({ name, dispatch }) {
+function InputNameForm() {
+  const { name, dispatch } = useQuiz();
+  
   return (
     <div className="input-name">
       <h1 style={{ color: "#FF76CE" }}>

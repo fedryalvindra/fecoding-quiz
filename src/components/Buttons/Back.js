@@ -1,7 +1,9 @@
 import "./style/Back.css";
 import BackPhoto from "./back.png";
+import { useQuiz } from "../../context/QuizContext";
 
-function Back({ dispatch, page }) {
+function Back({ page }) {
+  const { dispatch } = useQuiz();
   return (
     <img
       className="back"

@@ -1,6 +1,8 @@
-import "./MenuBar.css"
+import { useQuiz } from "../../context/QuizContext";
+import "./MenuBar.css";
 
-function MenuBar({ dispatch }) {
+function MenuBar() {
+  const { dispatch } = useQuiz();
   return (
     <nav>
       <ul>

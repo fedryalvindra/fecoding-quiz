@@ -1,4 +1,7 @@
-function Card({ card, hoverQuiz, dispatch }) {
+import { useQuiz } from "../../context/QuizContext";
+
+function Card({ card }) {
+  const { hoverQuiz, dispatch } = useQuiz();
   return (
     <div
       className="card"

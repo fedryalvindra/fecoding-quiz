@@ -1,7 +1,10 @@
 import QuizDescriptionLayout from "./QuizDescriptionLayout.js";
 import Button from "../Buttons/Button.js";
+import { useQuiz } from "../../context/QuizContext.js";
 
-function QuizDescription({ selectedQuiz, dispatch }) {
+function QuizDescription() {
+  const { selectedQuiz, dispatch } = useQuiz();
+  
   return (
     <div className="quiz-description-container">
       <div className="quiz-description">

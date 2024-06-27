@@ -2,12 +2,12 @@ import Back from "../Buttons/Back.js";
 import InputNameForm from "./InputNameForm.js";
 import "./style/FillNamePage.css";
 
-function InputName({ name, dispatch }) {
+function InputName() {
   return (
     <div className="fill-name-container">
-      <Back dispatch={dispatch} page={"backToLandingPage"} />
+      <Back page={"backToLandingPage"} />
       <div className="fill-name-content">
-        <InputNameForm name={name} dispatch={dispatch} />
+        <InputNameForm />
       </div>
     </div>
   );

@@ -1,7 +1,10 @@
+import { useQuiz } from "../../context/QuizContext";
 import Button from "../Buttons/Button";
-import "./ScorePage.css"
+import "./ScorePage.css";
 
-function Score({ name, score, totalQuiz, dispatch }) {
+function Score() {
+  const { name, score, totalQuiz, dispatch } = useQuiz();
+
   return (
     <div className="score-container">
       <div className="correct-answer">
